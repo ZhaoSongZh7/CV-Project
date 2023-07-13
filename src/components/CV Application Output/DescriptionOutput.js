@@ -6,6 +6,7 @@ export const DescriptionOutput = (props) => {
 
 const descriptionOutputStyles = {
     description: {
+        marginLeft: '30px',
         marginTop: '15px',
         color: 'black'
     }

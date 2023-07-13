@@ -1,0 +1,43 @@
+@media (max-width: 1725px) {
+    .input-overview-container {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(29%,-35%);
+        -ms-transform: translate(29%,-35%);
+    }
+}
+
+@media (max-width: 1200px) {
+    .input-overview-container {
+        position: absolute;
+        left: 50%;
+        transform: translate(10%,-35%);
+        -ms-transform: translate(10%,-35%);
+
+    }
+}
+
+@media (max-width: 1050px) {
+    .input-overview-container {
+        position: absolute;
+        left: 50%;
+        transform: translate(0,-35%);
+        -ms-transform: translate(0,-35%);
+
+    }
+}
+
+
+@media (max-height: 850px) {
+    .input-overview-container {
+        top: 30%;
+    }
+}
+
+
+@media (max-height: 650px) {
+    .input-overview-container {
+        top: 50%;
+    }
+}

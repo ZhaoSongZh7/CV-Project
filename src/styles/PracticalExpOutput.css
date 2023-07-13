@@ -1,0 +1,98 @@
+.deletePractical {
+    position: absolute;
+    right: 65px;
+    /* top: 32px; */
+    width: 32px;
+    height: 25px;
+    opacity: 0.3;
+  }
+  .deletePractical:hover {
+    opacity: 1;
+  }
+  .deletePractical:before, .deletePractical:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 25px;
+    width: 2px;
+    background-color: #333;
+  }
+  .deletePractical:before {
+    transform: rotate(45deg);
+  }
+  .deletePractical:after {
+    transform: rotate(-45deg);
+  }
+
+  
+
+  .editPractical {
+    position: absolute ;
+    width: 10px ;
+    height: 12px ;
+    background: dimgray ;
+    position: relative ;
+    transform: rotate(30deg);
+    opacity: 0.3;
+    right: -82px;
+  }
+
+  .editPractical:hover {
+    opacity: 1;
+  }
+
+  .editPractical::before {
+    content: "" ;
+    position: absolute ;
+    width: 10px ;
+    height: 10px ;
+    background: dimgray ;
+    top: -8px ;
+  }
+  .editPractical::after {
+    content: "" ;
+    position: absolute ;
+    width: 8px ;
+    height: 8px ;
+    background: black ;
+    left: 1px ;
+    bottom: -4px ;
+    transform: rotate(45deg);
+  }
+
+.savePractical {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    opacity: 0.3;
+    right: -335px;
+}
+
+.savePractical:hover {
+    opacity: 1;
+}
+
+.savePractical::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 3px;
+    background-color: #333;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+.savePractical::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #333;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
